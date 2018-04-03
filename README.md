@@ -6,6 +6,9 @@ This successfully encrypts the [secret.key](https://github.com/rolyatwilson/git-
 
 ## Limitations
 Unintended commits to `.gitattributes` can break all the things.
-[https://github.com/rolyatwilson/git-crypt-demo/pull/1] illustrates how a single 1 character change to `.gitattributes` prevents any new secret files from being encrypted.
 
-[https://github.com/rolyatwilson/git-crypt-demo/pull/2] illustrates how that same 1 character change will unencrypt the existing secrets file when an update is pushed up.
+- [https://github.com/rolyatwilson/git-crypt-demo/pull/1] illustrates how a single 1 character change to `.gitattributes` prevents any new secret files from being encrypted.
+
+- [https://github.com/rolyatwilson/git-crypt-demo/pull/2] illustrates how that same 1 character change will unencrypt the existing secrets file when an update is pushed up.
+
+See also [secret key limitations](secrets/README.md#limitations).
